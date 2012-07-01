@@ -1,11 +1,14 @@
+let mapleader = ","
 " vim: filetype=vim
+
 inoremap <expr> <C-n> pumvisible() ? '<C-n>' : '<C-n><C-r>=pumvisible() ? "\<lt>Down>" : ""<CR>'
 " set mapping to autocomplete
 inoremap <expr> <C-Space> pumvisible() ? '<C-n>' : '<C-x><C-o><C-n><C-p><C-r>=pumvisible() ? "\<lt>Down>" : ""<CR>'
 " map the F2 key to open a side panel with the folder tree
 noremap <silent> <F2> :NERDTreeToggle<Return>
 " set Alt-Shift-f f to search for files
-noremap <silent><M-S-f>   :FufFile **/<CR>
+noremap <silent><S-f>   :FufFile **/<CR>
+noremap <silent><M-S-f>   :FufRenewCache<CR>\|:FufFile **/<CR>
 noremap <silent><M-S-o>   :FufBuffer<CR>
 noremap <silent><M-S-t>c  :FufBufferTag<CR>
 noremap <silent><M-S-t>a  :FufBufferTagAll<CR>
@@ -95,3 +98,6 @@ nmap <silent> <CR> :noh<CR>
 " don't deselect when indenting in visual mode
 vnoremap > >gv
 vnoremap < <gv
+" switch between last two files
+nnoremap <leader><leader> <c-^>
+
