@@ -21,7 +21,7 @@
 	url = https://github.com/Townk/vim-autoclose
 [submodule "bundle/showmarks"]
 	path = bundle/showmarks
-	url = https://github.com/vim-scripts/vim-showmarks
+	url = https://github.com/vim-scripts/ShowMarks
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar
