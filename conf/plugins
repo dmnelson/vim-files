@@ -45,17 +45,13 @@ let g:cssColorVimDoNotMessMyUpdatetime = 1
 " disable the default zoom shortcuts
 let g:use_default_shortcuts_for_zoom = 0
 
-" setup powerline
-if g:enable_powerline
-  if has("mac")
-    let g:Powerline_symbols = 'fancy'
-  endif
-else
-  let g:Powerline_loaded = 0
-endif
-
 " use own color for the redgreen bar
 let g:jasmine_use_own_colors = 0
 
-" setting exclude path for fuzzy finder removing /tmp and /vendor folders
-let g:fuf_file_exclude = '\v\~$|\.(o|exe|dll|bak|orig|swp)$|(^|[/\\])\.(hg|git|bzr)($|[/\\])|(^|[/\\])(tmp|vendor)($|[/\\])'
+" set ctrlp to show on top of the screen
+let g:ctrlp_match_window_bottom = 0
+let g:ctrlp_match_window_reversed = 0
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/](.git|.hg|.svn|vendor/bundle|tmp/cache|coverage|public/source_maps)$',
+  \ 'file': '\v\.(exe|so|dll|gif|jpg|jpeg|png|svg|ico|woff|ttf|eot)$',
+  \ }

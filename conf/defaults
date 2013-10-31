@@ -38,5 +38,18 @@ au FocusLost * :wa
 set listchars=tab:▸\ ,eol:¬,extends:❯,precedes:❮,trail:⌴
 set showbreak=↪
 set fillchars=diff:⣿,vert:│
-"enable powerline
-let g:enable_powerline = 1
+"set clipboard without the new for "+
+set clipboard=unnamed
+"disables the showing of current mode on the command line
+set noshowmode
+"set split to open in a more natural setup
+set splitbelow
+set splitright
+" add gem.tags to the list of tag files to look for
+set tags+=gem.tags
+" enable custom color for cursors besides coloscheme
+let g:use_custom_cursors = 1
+"set lazyredraw so macros run faster
+set lazyredraw
+" set airline to use powerline symbols from different font
+let g:airline_powerline_fonts=1

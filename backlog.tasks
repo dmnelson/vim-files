@@ -1,49 +1,51 @@
 TODO update Readme
-TODO made Readme markdown
 TODO clean shortcuts
-
+TODO activate rails shortcuts only when plugin is active
 
 Plugins:
-  ✓ autoclose
-  ✓ bundler
-  ✓ css-color
-  ✓ easytags
-  ✓ endwise
-  ✓ foldsearch
+  ✓ vundle
   ✓ fugitive
-  ✓ fuzzyfinder
-  ✓ gundo
+  ✓ rails
+  ✓ repeat
+  ✓ ragtag
+  ✓ surround
+  ✓ rake
+  ✓ endwise
+  ✓ haml
+  ✓ ctrlp
+  ✓ clojure
   ✓ jade
-  ✓ jasmine
-  ✓ javacomplete
-  ✓ matchit
   ✓ nerdcommenter
   ✓ nerdtree
-  ✓ pathogen
-  ✓ powerline
-  ✓ ragtag
-  ✓ rails
-  ✓ rake
-  ✓ repeat
-  ✓ ruby
-  ✓ showmarks
-  ✓ slim
-  ✓ snipmate
-  ✓ snippets
-  ✓ surround
-  ✓ syntactic
-  ✓ tagbar
-  ✓ textobj-rubyblock
-  ✓ textobj-user
-  ✓ clojure
-  ✓ haml
-  ✓ javascript
-  ✓ task
+  ✓ syntastic
   ✓ zoom
+  ✓ powerline
+  ✓ autoclose
+  ✓ matchit
+  ✓ tagbar
+  ✓ textobj-user
+  ✓ textobj-rubyblock
+  ✓ ruby
+  ✓ gundo
+  ✓ css-color
+  ✓ task
+  ✓ javascript
+  ✓ jasmine
+  ✓ tlib
+  ✓ vim-addon-mw-utils
+  ✓ snippets
+  ✓ snipmate
+  ✓ slim
+  ✓ vim-coffee-script
+  ✓ vim-puppet
+  - vim-airline
+  - yankring (https://github.com/vim-scripts/YankRing.vim)
+  - terryma/vim-multiple-cursors
   - vimmakegreen (https://github.com/reinh/vim-makegreen.git)
   - easymotion
   - tabular
   - specky! (need only some snippets)
+  - markdown (https://github.com/plasticboy/vim-markdown)
   - jsbeautifier
   - jslint
   - zencoding
@@ -58,7 +60,6 @@ Plugins:
   - Conque-Shell
   - AutoTag
   - preview
-  - coffee-script
   - haskel
   - hier
   - gsearch
